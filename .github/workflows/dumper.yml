@@ -47,7 +47,7 @@ jobs:
         run: |
              cd DumprX
              export PUSH_TO_GITLAB=true
-             echo "koushiks-dumps" > .gitlab_group
+             echo "koushiks-dumps2" > .gitlab_group
              echo "${{ secrets.GITLAB_TOKEN }}" > .gitlab_token
              echo "${{ secrets.TGCHAT }}" > .tg_chat
              echo "${{ secrets.TGTOKEN }}" > .tg_token
